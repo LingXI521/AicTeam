@@ -1,2 +1,7 @@
 # AicTeam X
-AicTeam X 版本
+AicTeam X 系列
+
+------
+
+已停更
+
