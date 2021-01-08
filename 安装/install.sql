@@ -1,4 +1,4 @@
-﻿-- MySQL dump 10.13  Distrib 5.6.44, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.6.44, for Win64 (x86_64)
 --
 -- Host: localhost    Database: aic
 -- ------------------------------------------------------
@@ -194,7 +194,7 @@ CREATE TABLE `autive_site` (
 
 LOCK TABLES `autive_site` WRITE;
 /*!40000 ALTER TABLE `autive_site` DISABLE KEYS */;
-INSERT INTO `autive_site` VALUES (1,'LingXI - 灵汐网','https://autive.cn/','HI，灵汐网欢迎您的光临!不定期更新文章的啦','https://autive.cn/usr/uploads/2020/youlian/lingxi.png','true');
+INSERT INTO `autive_site` VALUES (1,'LingXI - 灵汐网','https://autive.cn/','HI，灵汐网欢迎您的光临!不定期更新文章的啦','https://autive.cn/usr/uploads/2020/youlian/lingxi.png','true'),(2,'灵汐导航网','http://dh.autive.cn','灵汐导航网，收集各大站点链接','无','true');
 /*!40000 ALTER TABLE `autive_site` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -223,7 +223,7 @@ CREATE TABLE `autive_user` (
 
 LOCK TABLES `autive_user` WRITE;
 /*!40000 ALTER TABLE `autive_user` DISABLE KEYS */;
-INSERT INTO `autive_user` VALUES (1,'admin','e10adc3949ba59abbe56e057f20f883e','是灵汐呀mua~','2013368396',1,1);
+INSERT INTO `autive_user` VALUES (1,'admin','e10adc3949ba59abbe56e057f20f883e','是灵汐呀mua~','3364689142',1,1),(2,'yanshi','e10adc3949ba59abbe56e057f20f883e','测试','3364689142',3,1);
 /*!40000 ALTER TABLE `autive_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
